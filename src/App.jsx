@@ -1,18 +1,30 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TrustGridForm from './TrustGridForm';
-import ThankYou from './ThankYou';
+import { Routes, Route } from 'react-router-dom';
+import WalletConnect from './WalletConnect';
+import DocumentUpload from './DocumentUpload';
+import Register from './RegisterLand';
+import SuccessPage from './SuccessPage';
 
 function App() {
   return (
-    <Router>
+    <div>
       <Routes>
-        <Route path="/" element={<TrustGridForm />} />
-        <Route path="/thank-you" element={<ThankYou />} />
+      <Route path="/" element={<WalletConnect />} />
+        <Route path="/DocumentUpload" element={<DocumentUpload />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/SuccessPage" element={<SuccessPage />} />
       </Routes>
-    </Router>
+    </div>
   );
-}
+};
 
 export default App;
+// import react from "react";
+// function App(){
+//   return(
+//     <div>
+//       <Register />
+//     </div>
+//   );
+// }
+// export default App;
