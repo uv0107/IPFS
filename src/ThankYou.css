@@ -1,0 +1,35 @@
+/* ThankYou.css */
+.thankyou-wrapper {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #1f1f1f, #292a36);
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .thankyou-wrapper h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #8e44ec;
+  }
+  
+  .thankyou-wrapper p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #8e44ec;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .back-link:hover {
+    background-color: #732d91;
+  }
+  
